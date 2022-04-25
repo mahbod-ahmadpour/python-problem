@@ -1,3 +1,4 @@
+#solve
 #problem1
 s = 'lexicon'
 print((s[0].upper()))
