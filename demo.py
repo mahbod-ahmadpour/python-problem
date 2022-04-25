@@ -20,7 +20,7 @@ d3 = {'k1':[{'nest_key':['this is deep',['hello']]}]}
 
 print(d1['simple_key'])
 print(d2['k1']['k2'])
-print(d3['k1'][0]['nest_key'][1])
+print(d3['k1'][0]['nest_key'][1][0])
 
 #problem4
 my_list = [1,1,1,1,1,2,2,2,2,3,3,3,3]
@@ -29,6 +29,6 @@ print(set(my_list))
 #problem5
 age = 4
 name = "Sammy"
-print("Hello my dog's name is "+ name + " he is "+ str(age)+"years old")
+print("Hello my dog's name is {} and he is {} years old ".format(name,age))
 
 
