@@ -1,4 +1,4 @@
-
+solve problems
     Problem 1:
 Given the string:
 s = 'Lexicon'
